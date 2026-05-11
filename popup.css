@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  width: 380px;
+  width: 420px;
   font-family: Arial, Helvetica, sans-serif;
   color: #151515;
   background: #f5f5f5;
@@ -50,6 +50,70 @@ button:disabled {
 .actions {
   display: flex;
   gap: 6px;
+}
+
+.authLanding {
+  display: grid;
+  gap: 12px;
+  min-height: 360px;
+  align-content: center;
+}
+
+.authBrand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.authBrand h1 {
+  font-size: 22px;
+}
+
+.authMark {
+  width: 42px;
+  height: 42px;
+  background: radial-gradient(circle at 50% 50%, #111 0 18%, transparent 19%), conic-gradient(#fff 0 18%, #111 18% 32%, #fff 32% 52%, #111 52% 66%, #fff 66% 84%, #111 84%);
+  border: 2px solid #111;
+  border-radius: 50%;
+}
+
+.authLanding label {
+  display: grid;
+  gap: 4px;
+}
+
+.syncBox,
+.loginBox {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.syncBox {
+  grid-template-columns: 1fr auto;
+  align-items: end;
+  padding: 0;
+  background: transparent;
+  border: 0;
+}
+
+.syncBox label {
+  min-width: 0;
+}
+
+.syncBox input,
+.loginBox input,
+.authLanding input {
+  width: 100%;
+  min-height: 32px;
+  padding: 0 8px;
+  border: 1px solid #d7d7d7;
+  border-radius: 6px;
+  font: inherit;
 }
 
 .status {
@@ -101,4 +165,8 @@ li {
 
 .muted {
   color: #666;
+}
+
+.hidden {
+  display: none;
 }

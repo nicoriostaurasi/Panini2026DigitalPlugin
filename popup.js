@@ -5,6 +5,17 @@ const ASSET_HOST = "https://paninicollection.fifa.com/assets/";
 const els = {
   refresh: document.querySelector("#refresh"),
   downloadJson: document.querySelector("#downloadJson"),
+  syncStatus: document.querySelector("#syncStatus"),
+  backendUrl: document.querySelector("#backendUrl"),
+  backendUrlApp: document.querySelector("#backendUrlApp"),
+  authLanding: document.querySelector("#authLanding"),
+  appView: document.querySelector("#appView"),
+  loginUser: document.querySelector("#loginUser"),
+  loginPassword: document.querySelector("#loginPassword"),
+  loginBtn: document.querySelector("#loginBtn"),
+  registerBtn: document.querySelector("#registerBtn"),
+  logoutBtn: document.querySelector("#logoutBtn"),
+  loginStatus: document.querySelector("#loginStatus"),
   status: document.querySelector("#status"),
   summary: document.querySelector(".summary"),
   listWrap: document.querySelector(".listWrap"),
@@ -15,11 +26,28 @@ const els = {
   tempList: document.querySelector("#tempList")
 };
 
+const BACKEND_URL_KEY = "panini-2026-sync-backend-url";
+const AUTH_KEY = "panini-2026-sync-auth";
 let lastManagerPayload = null;
+let lastSyncedProfile = localStorage.getItem("panini-2026-last-profile-id") || "";
+let auth = loadAuth();
 
 els.refresh.addEventListener("click", load);
 els.downloadJson.addEventListener("click", downloadManagerJson);
-load();
+els.syncStatus.addEventListener("click", syncStatus);
+els.loginBtn.addEventListener("click", () => login("login"));
+els.registerBtn.addEventListener("click", () => login("register"));
+els.logoutBtn.addEventListener("click", logout);
+els.backendUrl.value = localStorage.getItem(BACKEND_URL_KEY) || "http://localhost:8787";
+els.backendUrlApp.value = els.backendUrl.value;
+els.backendUrl.addEventListener("input", () => {
+  saveBackendUrl(els.backendUrl.value);
+});
+els.backendUrlApp.addEventListener("input", () => {
+  saveBackendUrl(els.backendUrlApp.value);
+});
+renderAuth();
+if (auth?.token) load();
 
 async function load() {
   setBusy(true);
@@ -30,10 +58,12 @@ async function load() {
     render(init, catalog);
     lastManagerPayload = managerPayload(init, catalog);
     els.downloadJson.disabled = false;
+    els.syncStatus.disabled = false;
     setStatus("");
   } catch (error) {
     lastManagerPayload = null;
     els.downloadJson.disabled = true;
+    els.syncStatus.disabled = true;
     els.summary.hidden = true;
     els.listWrap.hidden = true;
     setStatus(error.message || "No se pudo cargar la informacion.", true);
@@ -144,9 +174,128 @@ function managerPayload({ init, user }, catalog) {
   return {
     app: "digital-panini-2026-manager",
     user: user.label || user.uid || "Panini",
+    userId: user.uid || "",
+    source: "plugin",
     exportedAt: new Date().toISOString(),
     quantities
   };
+}
+
+async function syncStatus() {
+  if (!lastManagerPayload) return;
+  const backendUrl = normalizedBackendUrl();
+  if (!backendUrl) {
+    setStatus("Configura la URL del backend antes de sincronizar.", true);
+    els.backendUrl.focus();
+    return;
+  }
+
+  setBusy(true);
+  setStatus("Sincronizando con backend...");
+
+  try {
+    const payload = {
+      ...lastManagerPayload,
+      id: auth ? "" : lastSyncedProfile || lastManagerPayload.userId || "",
+      source: "plugin"
+    };
+    const response = await fetch(`${backendUrl}/api/profiles`, {
+      method: "POST",
+      headers: authHeaders(),
+      body: JSON.stringify(payload)
+    });
+    const data = await response.json().catch(() => ({}));
+    if (!response.ok) throw new Error(data.message || data.error || `Backend respondio ${response.status}.`);
+    lastSyncedProfile = data.profile?.id || lastSyncedProfile;
+    if (lastSyncedProfile) localStorage.setItem("panini-2026-last-profile-id", lastSyncedProfile);
+    setStatus(`Status sincronizado como ${data.profile?.user || lastManagerPayload.user}.`);
+  } catch (error) {
+    setStatus(error.message || "No pude sincronizar con el backend.", true);
+  } finally {
+    setBusy(false);
+  }
+}
+
+async function login(mode) {
+  const backendUrl = normalizedBackendUrl();
+  const username = els.loginUser.value.trim();
+  const password = els.loginPassword.value;
+  if (!backendUrl || !username || !password) {
+    setLoginStatus("Completa backend, usuario y clave.");
+    return;
+  }
+
+  setLoginStatus(mode === "register" ? "Creando usuario..." : "Entrando...");
+  try {
+    const response = await fetch(`${backendUrl}/api/auth/${mode}`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ username, password, displayName: username })
+    });
+    const data = await response.json().catch(() => ({}));
+    if (!response.ok) throw new Error(data.message || data.error || `Backend respondio ${response.status}.`);
+    auth = data;
+    localStorage.setItem(AUTH_KEY, JSON.stringify(auth));
+    els.loginPassword.value = "";
+    renderAuth();
+    setLoginStatus(`Logueado como ${auth.user.displayName}.`);
+  } catch (error) {
+    setLoginStatus(error.message || "No pude iniciar sesion.");
+  }
+}
+
+function logout() {
+  auth = null;
+  lastManagerPayload = null;
+  localStorage.removeItem(AUTH_KEY);
+  els.summary.hidden = true;
+  els.listWrap.hidden = true;
+  els.downloadJson.disabled = true;
+  els.syncStatus.disabled = true;
+  renderAuth();
+  setLoginStatus("Sesion cerrada.");
+}
+
+function loadAuth() {
+  try {
+    return JSON.parse(localStorage.getItem(AUTH_KEY));
+  } catch {
+    return null;
+  }
+}
+
+function renderAuth() {
+  const logged = Boolean(auth?.token);
+  els.authLanding.classList.toggle("hidden", logged);
+  els.appView.classList.toggle("hidden", !logged);
+  els.backendUrlApp.value = els.backendUrl.value.trim();
+  if (logged) {
+    els.loginUser.value = auth.user?.username || auth.user?.displayName || "";
+    setLoginStatus(`Logueado como ${auth.user?.displayName || auth.user?.username}.`);
+    load();
+  }
+}
+
+function authHeaders() {
+  const headers = { "Content-Type": "application/json" };
+  if (auth?.token) headers.Authorization = `Bearer ${auth.token}`;
+  return headers;
+}
+
+function setLoginStatus(message) {
+  els.loginStatus.textContent = message;
+}
+
+function normalizedBackendUrl() {
+  return saveBackendUrl(els.backendUrlApp.value || els.backendUrl.value);
+}
+
+function saveBackendUrl(value) {
+  const normalized = (value || "http://localhost:8787").trim().replace(/\/+$/, "");
+  localStorage.setItem(BACKEND_URL_KEY, normalized);
+  els.backendUrl.value = normalized;
+  els.backendUrlApp.value = normalized;
+  return normalized;
 }
 
 function allManagerQuantities(catalog) {
@@ -235,6 +384,7 @@ function fileSafeName(value) {
 function setBusy(busy) {
   els.refresh.disabled = busy;
   els.downloadJson.disabled = busy || !lastManagerPayload;
+  els.syncStatus.disabled = busy || !lastManagerPayload;
 }
 
 function setStatus(message, isError = false) {

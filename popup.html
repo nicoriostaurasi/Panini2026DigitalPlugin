@@ -8,38 +8,76 @@
   </head>
   <body>
     <main>
-      <header>
-        <h1>Panini Collection</h1>
+      <section id="authLanding" class="authLanding">
+        <div class="authBrand">
+          <span class="authMark"></span>
+          <div>
+            <p class="label">Digital Panini 2026</p>
+            <h1>Sync Plugin</h1>
+          </div>
+        </div>
+        <label>
+          <span class="label">Backend</span>
+          <input id="backendUrl" type="url" placeholder="http://localhost:8787 o https://tu-ngrok.ngrok-free.app">
+        </label>
+        <label>
+          <span class="label">Usuario sync</span>
+          <input id="loginUser" type="text" autocomplete="username" placeholder="usuario">
+        </label>
+        <label>
+          <span class="label">Clave</span>
+          <input id="loginPassword" type="password" autocomplete="current-password" placeholder="min. 4 caracteres">
+        </label>
         <div class="actions">
-          <button id="refresh" type="button">Actualizar</button>
-          <button id="downloadJson" type="button" disabled>JSON</button>
+          <button id="loginBtn" type="button">Login</button>
+          <button id="registerBtn" type="button">Crear</button>
         </div>
-      </header>
-
-      <section id="status" class="status">Cargando...</section>
-
-      <section class="summary" hidden>
-        <div>
-          <span class="label">Usuario</span>
-          <strong id="user">-</strong>
-        </div>
-        <div>
-          <span class="label">Album</span>
-          <strong id="album">-</strong>
-        </div>
-        <div>
-          <span class="label">Dorado</span>
-          <strong id="golden">-</strong>
-        </div>
-        <div>
-          <span class="label">Temporales</span>
-          <strong id="tempCount">-</strong>
-        </div>
+        <p id="loginStatus" class="muted"></p>
       </section>
 
-      <section class="listWrap" hidden>
-        <h2>Figuritas visibles en la API</h2>
-        <ol id="tempList"></ol>
+      <section id="appView" class="hidden">
+        <header>
+          <h1>Panini Collection</h1>
+          <div class="actions">
+            <button id="refresh" type="button">Actualizar</button>
+            <button id="downloadJson" type="button" disabled>JSON</button>
+            <button id="logoutBtn" type="button">Salir</button>
+          </div>
+        </header>
+
+        <section class="syncBox">
+          <label>
+            <span class="label">Backend / localhost</span>
+            <input id="backendUrlApp" type="url" placeholder="http://localhost:8787">
+          </label>
+          <button id="syncStatus" type="button" disabled>Sincronizar status</button>
+        </section>
+
+        <section id="status" class="status">Cargando...</section>
+
+        <section class="summary" hidden>
+          <div>
+            <span class="label">Usuario</span>
+            <strong id="user">-</strong>
+          </div>
+          <div>
+            <span class="label">Album</span>
+            <strong id="album">-</strong>
+          </div>
+          <div>
+            <span class="label">Dorado</span>
+            <strong id="golden">-</strong>
+          </div>
+          <div>
+            <span class="label">Temporales</span>
+            <strong id="tempCount">-</strong>
+          </div>
+        </section>
+
+        <section class="listWrap" hidden>
+          <h2>Figuritas visibles en la API</h2>
+          <ol id="tempList"></ol>
+        </section>
       </section>
     </main>
     <script src="popup.js"></script>
