@@ -27,6 +27,7 @@ const els = {
 };
 
 const BACKEND_URL_KEY = "panini-2026-sync-backend-url";
+const DEFAULT_BACKEND_URL = "https://panini2026digitalbackend.onrender.com";
 const AUTH_KEY = "panini-2026-sync-auth";
 let lastManagerPayload = null;
 let lastSyncedProfile = localStorage.getItem("panini-2026-last-profile-id") || "";
@@ -38,7 +39,7 @@ els.syncStatus.addEventListener("click", syncStatus);
 els.loginBtn.addEventListener("click", () => login("login"));
 els.registerBtn.addEventListener("click", () => login("register"));
 els.logoutBtn.addEventListener("click", logout);
-els.backendUrl.value = localStorage.getItem(BACKEND_URL_KEY) || "http://localhost:8787";
+els.backendUrl.value = localStorage.getItem(BACKEND_URL_KEY) || DEFAULT_BACKEND_URL;
 els.backendUrlApp.value = els.backendUrl.value;
 els.backendUrl.addEventListener("input", () => {
   saveBackendUrl(els.backendUrl.value);
@@ -291,7 +292,7 @@ function normalizedBackendUrl() {
 }
 
 function saveBackendUrl(value) {
-  const normalized = (value || "http://localhost:8787").trim().replace(/\/+$/, "");
+  const normalized = (value || DEFAULT_BACKEND_URL).trim().replace(/\/+$/, "");
   localStorage.setItem(BACKEND_URL_KEY, normalized);
   els.backendUrl.value = normalized;
   els.backendUrlApp.value = normalized;
