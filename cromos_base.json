@@ -1,0 +1,2656 @@
+{
+  "Intro": {
+    "count": 9,
+    "items": [
+      {
+        "codigo": "INTRO 00",
+        "nombre": "00"
+      },
+      {
+        "codigo": "INTRO FWC1",
+        "nombre": "Official Emblem"
+      },
+      {
+        "codigo": "INTRO FWC2",
+        "nombre": "Official Emblem"
+      },
+      {
+        "codigo": "INTRO FWC3",
+        "nombre": "Official Mascots"
+      },
+      {
+        "codigo": "INTRO FWC4",
+        "nombre": "Official Slogan"
+      },
+      {
+        "codigo": "INTRO FWC5",
+        "nombre": "Official Ball"
+      },
+      {
+        "codigo": "INTRO FWC6",
+        "nombre": "CAN Emblem"
+      },
+      {
+        "codigo": "INTRO FWC7",
+        "nombre": "MEX Emblem"
+      },
+      {
+        "codigo": "INTRO FWC8",
+        "nombre": "USA Emblem"
+      }
+    ]
+  },
+  "México": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "MEX 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "MEX 1",
+        "nombre": "LUIS MALAGÓN"
+      },
+      {
+        "codigo": "MEX 2",
+        "nombre": "JOHAN VÁSQUEZ"
+      },
+      {
+        "codigo": "MEX 3",
+        "nombre": "CESAR MONTES"
+      },
+      {
+        "codigo": "MEX 4",
+        "nombre": "JESÚS GALLARDO"
+      },
+      {
+        "codigo": "MEX 5",
+        "nombre": "ISRAEL REYES"
+      },
+      {
+        "codigo": "MEX 6",
+        "nombre": "EDSON ALVAREZ"
+      },
+      {
+        "codigo": "MEX 7",
+        "nombre": "MARCEL RUIZ"
+      },
+      {
+        "codigo": "MEX 8",
+        "nombre": "HIRVING LOZANO"
+      },
+      {
+        "codigo": "MEX 9",
+        "nombre": "RAÚL JIMÉNEZ"
+      },
+      {
+        "codigo": "MEX 10",
+        "nombre": "ALEXIS VEGA"
+      },
+      {
+        "codigo": "MEX 11",
+        "nombre": "ROBERTO ALVARADO"
+      }
+    ]
+  },
+  "Sudáfrica": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "RSA 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "RSA 1",
+        "nombre": "RONWEN WILLIAMS"
+      },
+      {
+        "codigo": "RSA 2",
+        "nombre": "AUBREY MODIBA"
+      },
+      {
+        "codigo": "RSA 3",
+        "nombre": "MBEKEZELI MBOKAZI"
+      },
+      {
+        "codigo": "RSA 4",
+        "nombre": "SIYABONGA NGEZANA"
+      },
+      {
+        "codigo": "RSA 5",
+        "nombre": "KHULISO MUDAU"
+      },
+      {
+        "codigo": "RSA 6",
+        "nombre": "TEBOHO MOKOENA"
+      },
+      {
+        "codigo": "RSA 7",
+        "nombre": "YAYA SITHOLE"
+      },
+      {
+        "codigo": "RSA 8",
+        "nombre": "BATHUSI AUBAAS"
+      },
+      {
+        "codigo": "RSA 9",
+        "nombre": "SIPHO MBULE"
+      },
+      {
+        "codigo": "RSA 10",
+        "nombre": "LYLE FOSTER"
+      },
+      {
+        "codigo": "RSA 11",
+        "nombre": "OSWIN APOLLIS"
+      }
+    ]
+  },
+  "Corea": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "KOR 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "KOR 1",
+        "nombre": "HYEONWOO JO"
+      },
+      {
+        "codigo": "KOR 2",
+        "nombre": "MINJAE KIM"
+      },
+      {
+        "codigo": "KOR 3",
+        "nombre": "YUMIN CHO"
+      },
+      {
+        "codigo": "KOR 4",
+        "nombre": "YOUNGWOO SEOL"
+      },
+      {
+        "codigo": "KOR 5",
+        "nombre": "JAESUNG LEE"
+      },
+      {
+        "codigo": "KOR 6",
+        "nombre": "INBEOM HWANG"
+      },
+      {
+        "codigo": "KOR 7",
+        "nombre": "KANGIN LEE"
+      },
+      {
+        "codigo": "KOR 8",
+        "nombre": "JENS CASTROP"
+      },
+      {
+        "codigo": "KOR 9",
+        "nombre": "HEUNGMIN SON"
+      },
+      {
+        "codigo": "KOR 10",
+        "nombre": "HEECHAN HWANG"
+      },
+      {
+        "codigo": "KOR 11",
+        "nombre": "HYEONGYU OH"
+      }
+    ]
+  },
+  "Rep. Checa": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "CZE 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "CZE 1",
+        "nombre": "MATĚJ KOVÁŘ"
+      },
+      {
+        "codigo": "CZE 2",
+        "nombre": "LADISLAV KREJČÍ"
+      },
+      {
+        "codigo": "CZE 3",
+        "nombre": "VLADIMÍR COUFAL"
+      },
+      {
+        "codigo": "CZE 4",
+        "nombre": "JAROSLAV ZELENÝ"
+      },
+      {
+        "codigo": "CZE 5",
+        "nombre": "LUKÁŠ PROVOD"
+      },
+      {
+        "codigo": "CZE 6",
+        "nombre": "LUKÁŠ ČERV"
+      },
+      {
+        "codigo": "CZE 7",
+        "nombre": "TOMÁŠ SOUČEK"
+      },
+      {
+        "codigo": "CZE 8",
+        "nombre": "PAVEL ŠULC"
+      },
+      {
+        "codigo": "CZE 9",
+        "nombre": "VÁCLAV ČERNÝ"
+      },
+      {
+        "codigo": "CZE 10",
+        "nombre": "ADAM HLOŽEK"
+      },
+      {
+        "codigo": "CZE 11",
+        "nombre": "PATRIK SCHICK"
+      }
+    ]
+  },
+  "Canadá": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "CAN 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "CAN 1",
+        "nombre": "DAYNE ST. CLAIR"
+      },
+      {
+        "codigo": "CAN 2",
+        "nombre": "ALPHONSO DAVIES"
+      },
+      {
+        "codigo": "CAN 3",
+        "nombre": "RICHIE LARYEA"
+      },
+      {
+        "codigo": "CAN 4",
+        "nombre": "DEREK CORNELIUS"
+      },
+      {
+        "codigo": "CAN 5",
+        "nombre": "STEPHEN EUSTÁQUIO"
+      },
+      {
+        "codigo": "CAN 6",
+        "nombre": "ISMAËL KONÉ"
+      },
+      {
+        "codigo": "CAN 7",
+        "nombre": "JACOB SHAFFELBURG"
+      },
+      {
+        "codigo": "CAN 8",
+        "nombre": "NIKO SIGUR"
+      },
+      {
+        "codigo": "CAN 9",
+        "nombre": "TAJON BUCHANAN"
+      },
+      {
+        "codigo": "CAN 10",
+        "nombre": "CYLE LARIN"
+      },
+      {
+        "codigo": "CAN 11",
+        "nombre": "JONATHAN DAVID"
+      }
+    ]
+  },
+  "Bosnia y Herzegovina": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "BIH 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "BIH 1",
+        "nombre": "NIKOLA VASILJ"
+      },
+      {
+        "codigo": "BIH 2",
+        "nombre": "AMAR DEDIĆ"
+      },
+      {
+        "codigo": "BIH 3",
+        "nombre": "SEAD KOLAŠINAC"
+      },
+      {
+        "codigo": "BIH 4",
+        "nombre": "TARIK MUHAREMOVIĆ"
+      },
+      {
+        "codigo": "BIH 5",
+        "nombre": "NIKOLA KATIĆ"
+      },
+      {
+        "codigo": "BIH 6",
+        "nombre": "BENJAMIN TAHIROVIĆ"
+      },
+      {
+        "codigo": "BIH 7",
+        "nombre": "IVAN ŠUNJIĆ"
+      },
+      {
+        "codigo": "BIH 8",
+        "nombre": "ERMEDIN DEMIROVIĆ"
+      },
+      {
+        "codigo": "BIH 9",
+        "nombre": "ESMIR BAJRAKTAREVIĆ"
+      },
+      {
+        "codigo": "BIH 10",
+        "nombre": "EDIN DŽEKO"
+      },
+      {
+        "codigo": "BIH 11",
+        "nombre": "AMAR MEMIĆ"
+      }
+    ]
+  },
+  "Catar": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "QAT 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "QAT 1",
+        "nombre": "MESHAAL BARSHAM"
+      },
+      {
+        "codigo": "QAT 2",
+        "nombre": "SULTAN ALBRAKE"
+      },
+      {
+        "codigo": "QAT 3",
+        "nombre": "BOUALEM KHOUKHI"
+      },
+      {
+        "codigo": "QAT 4",
+        "nombre": "PEDRO MIGUEL"
+      },
+      {
+        "codigo": "QAT 5",
+        "nombre": "MOHAMMED MANNAI"
+      },
+      {
+        "codigo": "QAT 6",
+        "nombre": "KARIM BOUDIAF"
+      },
+      {
+        "codigo": "QAT 7",
+        "nombre": "ASSIM MADIBO"
+      },
+      {
+        "codigo": "QAT 8",
+        "nombre": "EDMILSON JUNIOR"
+      },
+      {
+        "codigo": "QAT 9",
+        "nombre": "AKRAM HASSAN AFIF"
+      },
+      {
+        "codigo": "QAT 10",
+        "nombre": "AHMED AL-GANEHI"
+      },
+      {
+        "codigo": "QAT 11",
+        "nombre": "ALMOEZ ALI"
+      }
+    ]
+  },
+  "Suiza": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "SUI 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "SUI 1",
+        "nombre": "GREGOR KOBEL"
+      },
+      {
+        "codigo": "SUI 2",
+        "nombre": "MANUEL AKANJI"
+      },
+      {
+        "codigo": "SUI 3",
+        "nombre": "RICARDO RODRÍGUEZ"
+      },
+      {
+        "codigo": "SUI 4",
+        "nombre": "NICO ELVEDI"
+      },
+      {
+        "codigo": "SUI 5",
+        "nombre": "SILVAN WIDMER"
+      },
+      {
+        "codigo": "SUI 6",
+        "nombre": "GRANIT XHAKA"
+      },
+      {
+        "codigo": "SUI 7",
+        "nombre": "REMO FREULER"
+      },
+      {
+        "codigo": "SUI 8",
+        "nombre": "FABIAN RIEDER"
+      },
+      {
+        "codigo": "SUI 9",
+        "nombre": "BREEL EMBOLO"
+      },
+      {
+        "codigo": "SUI 10",
+        "nombre": "RUBÉN VARGAS"
+      },
+      {
+        "codigo": "SUI 11",
+        "nombre": "DAN NDOVE"
+      }
+    ]
+  },
+  "Brasil": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "BRA 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "BRA 1",
+        "nombre": "ALISSON"
+      },
+      {
+        "codigo": "BRA 2",
+        "nombre": "MARQUINHOS"
+      },
+      {
+        "codigo": "BRA 3",
+        "nombre": "ÉDER MILITÃO"
+      },
+      {
+        "codigo": "BRA 4",
+        "nombre": "GABRIEL MAGALHÃES"
+      },
+      {
+        "codigo": "BRA 5",
+        "nombre": "CASEMIRO"
+      },
+      {
+        "codigo": "BRA 6",
+        "nombre": "BRUNO GUIMARÃES"
+      },
+      {
+        "codigo": "BRA 7",
+        "nombre": "VINÍCIUS JÚNIOR"
+      },
+      {
+        "codigo": "BRA 8",
+        "nombre": "RODRYGO"
+      },
+      {
+        "codigo": "BRA 9",
+        "nombre": "MATHEUS CUNHA"
+      },
+      {
+        "codigo": "BRA 10",
+        "nombre": "RAPHINHA"
+      },
+      {
+        "codigo": "BRA 11",
+        "nombre": "ESTÊVÃO"
+      }
+    ]
+  },
+  "Marruecos": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "MAR 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "MAR 1",
+        "nombre": "YASSINE BOUNOU"
+      },
+      {
+        "codigo": "MAR 2",
+        "nombre": "ACHRAF HAKIMI"
+      },
+      {
+        "codigo": "MAR 3",
+        "nombre": "NOUSSAIR MAZRAOUI"
+      },
+      {
+        "codigo": "MAR 4",
+        "nombre": "NAYEF AGUERD"
+      },
+      {
+        "codigo": "MAR 5",
+        "nombre": "ROMAIN SAÏSS"
+      },
+      {
+        "codigo": "MAR 6",
+        "nombre": "SOFYAN AMRABAT"
+      },
+      {
+        "codigo": "MAR 7",
+        "nombre": "ELIESSE BEN SEGHIR"
+      },
+      {
+        "codigo": "MAR 8",
+        "nombre": "BILAL EL KHANNOUSS"
+      },
+      {
+        "codigo": "MAR 9",
+        "nombre": "ISMAEL SAIBARI"
+      },
+      {
+        "codigo": "MAR 10",
+        "nombre": "YOUSSEF EN-NESYRI"
+      },
+      {
+        "codigo": "MAR 11",
+        "nombre": "BRAHIM DÍAZ"
+      }
+    ]
+  },
+  "Haiti": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "HAI 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "HAI 1",
+        "nombre": "JOHNY PLACIDE"
+      },
+      {
+        "codigo": "HAI 2",
+        "nombre": "CARLENS ARCUS"
+      },
+      {
+        "codigo": "HAI 3",
+        "nombre": "RICARDO ADÉ"
+      },
+      {
+        "codigo": "HAI 4",
+        "nombre": "DUKE LACROIX"
+      },
+      {
+        "codigo": "HAI 5",
+        "nombre": "LEVERTON PIERRE"
+      },
+      {
+        "codigo": "HAI 6",
+        "nombre": "DANLEY JEAN JACQUES"
+      },
+      {
+        "codigo": "HAI 7",
+        "nombre": "JEAN-RICNER BELLEGARDE"
+      },
+      {
+        "codigo": "HAI 8",
+        "nombre": "JOSUÉ CASIMIR"
+      },
+      {
+        "codigo": "HAI 9",
+        "nombre": "RUBEN PROVIDENCE"
+      },
+      {
+        "codigo": "HAI 10",
+        "nombre": "DUCKENS NAZON"
+      },
+      {
+        "codigo": "HAI 11",
+        "nombre": "FRANTZDY PIERROT"
+      }
+    ]
+  },
+  "Escocia": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "SCO 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "SCO 1",
+        "nombre": "ANGUS GUNN"
+      },
+      {
+        "codigo": "SCO 2",
+        "nombre": "AARON HICKEY"
+      },
+      {
+        "codigo": "SCO 3",
+        "nombre": "ANDREW ROBERTSON"
+      },
+      {
+        "codigo": "SCO 4",
+        "nombre": "JOHN SOUTTAR"
+      },
+      {
+        "codigo": "SCO 5",
+        "nombre": "GRANT HANLEY"
+      },
+      {
+        "codigo": "SCO 6",
+        "nombre": "SCOTT MCTOMINAY"
+      },
+      {
+        "codigo": "SCO 7",
+        "nombre": "LEWIS FERGUSON"
+      },
+      {
+        "codigo": "SCO 8",
+        "nombre": "RYAN CHRISTIE"
+      },
+      {
+        "codigo": "SCO 9",
+        "nombre": "JOHN MCGINN"
+      },
+      {
+        "codigo": "SCO 10",
+        "nombre": "CHÉ ADAMS"
+      },
+      {
+        "codigo": "SCO 11",
+        "nombre": "BEN GANNON-DOAK"
+      }
+    ]
+  },
+  "USA": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "USA 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "USA 1",
+        "nombre": "MATT FREESE"
+      },
+      {
+        "codigo": "USA 2",
+        "nombre": "CHRIS RICHARDS"
+      },
+      {
+        "codigo": "USA 3",
+        "nombre": "TIM REAM"
+      },
+      {
+        "codigo": "USA 4",
+        "nombre": "MARK MCKENZIE"
+      },
+      {
+        "codigo": "USA 5",
+        "nombre": "TYLER ADAMS"
+      },
+      {
+        "codigo": "USA 6",
+        "nombre": "WESTON MCKENNIE"
+      },
+      {
+        "codigo": "USA 7",
+        "nombre": "TIMOTHY WEAH"
+      },
+      {
+        "codigo": "USA 8",
+        "nombre": "MALIK TILLMAN"
+      },
+      {
+        "codigo": "USA 9",
+        "nombre": "CHRISTIAN PULISIC"
+      },
+      {
+        "codigo": "USA 10",
+        "nombre": "BRENDEN AARONSON"
+      },
+      {
+        "codigo": "USA 11",
+        "nombre": "FOLARIN BALOGUN"
+      }
+    ]
+  },
+  "Paraguay": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "PAR 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "PAR 1",
+        "nombre": "ORLANDO GILL"
+      },
+      {
+        "codigo": "PAR 2",
+        "nombre": "GUSTAVO GÓMEZ"
+      },
+      {
+        "codigo": "PAR 3",
+        "nombre": "JUAN JOSÉ CÁCERES"
+      },
+      {
+        "codigo": "PAR 4",
+        "nombre": "OMAR ALDERETE"
+      },
+      {
+        "codigo": "PAR 5",
+        "nombre": "JÚNIOR ALONSO"
+      },
+      {
+        "codigo": "PAR 6",
+        "nombre": "DIEGO GÓMEZ"
+      },
+      {
+        "codigo": "PAR 7",
+        "nombre": "ANDRÉS CUBAS"
+      },
+      {
+        "codigo": "PAR 8",
+        "nombre": "JULIO ENCISO"
+      },
+      {
+        "codigo": "PAR 9",
+        "nombre": "MIGUEL ALMIRÓN"
+      },
+      {
+        "codigo": "PAR 10",
+        "nombre": "RAMÓN SOSA"
+      },
+      {
+        "codigo": "PAR 11",
+        "nombre": "ANTONIO SANABRIA"
+      }
+    ]
+  },
+  "Australia": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "AUS 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "AUS 1",
+        "nombre": "MATHEW RYAN"
+      },
+      {
+        "codigo": "AUS 2",
+        "nombre": "HARRY SOUTTAR"
+      },
+      {
+        "codigo": "AUS 3",
+        "nombre": "AZIZ BEHICH"
+      },
+      {
+        "codigo": "AUS 4",
+        "nombre": "CAMERON BURGESS"
+      },
+      {
+        "codigo": "AUS 5",
+        "nombre": "LEWIS MILLER"
+      },
+      {
+        "codigo": "AUS 6",
+        "nombre": "JACKSON IRVINE"
+      },
+      {
+        "codigo": "AUS 7",
+        "nombre": "RILEY MCGREE"
+      },
+      {
+        "codigo": "AUS 8",
+        "nombre": "AIDEN O’NEILL"
+      },
+      {
+        "codigo": "AUS 9",
+        "nombre": "CONNOR METCALFE"
+      },
+      {
+        "codigo": "AUS 10",
+        "nombre": "KUSINI YENGI"
+      },
+      {
+        "codigo": "AUS 11",
+        "nombre": "NESTORY IRANKUNDA"
+      }
+    ]
+  },
+  "Turquía": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "TUR 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "TUR 1",
+        "nombre": "UĞURCAN ÇAKIR"
+      },
+      {
+        "codigo": "TUR 2",
+        "nombre": "MERT MÜLDÜR"
+      },
+      {
+        "codigo": "TUR 3",
+        "nombre": "ABDÜLKERİM BARDAKCI"
+      },
+      {
+        "codigo": "TUR 4",
+        "nombre": "MERİH DEMİRAL"
+      },
+      {
+        "codigo": "TUR 5",
+        "nombre": "FERDİ KADIOĞLU"
+      },
+      {
+        "codigo": "TUR 6",
+        "nombre": "HAKAN ÇALHANOĞLU"
+      },
+      {
+        "codigo": "TUR 7",
+        "nombre": "ORKUN KÖKÇÜ"
+      },
+      {
+        "codigo": "TUR 8",
+        "nombre": "ARDA GÜLER"
+      },
+      {
+        "codigo": "TUR 9",
+        "nombre": "CAN UZUN"
+      },
+      {
+        "codigo": "TUR 10",
+        "nombre": "KEREM AKTÜRKOĞLU"
+      },
+      {
+        "codigo": "TUR 11",
+        "nombre": "KENAN YILDIZ"
+      }
+    ]
+  },
+  "Alemania": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "GER 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "GER 1",
+        "nombre": "MARC-ANDRÉ TER STEGEN"
+      },
+      {
+        "codigo": "GER 2",
+        "nombre": "ANTONIO RÜDIGER"
+      },
+      {
+        "codigo": "GER 3",
+        "nombre": "JONATHAN TAH"
+      },
+      {
+        "codigo": "GER 4",
+        "nombre": "DAVID RAUM"
+      },
+      {
+        "codigo": "GER 5",
+        "nombre": "FLORIAN WIRTZ"
+      },
+      {
+        "codigo": "GER 6",
+        "nombre": "JOSHUA KIMMICH"
+      },
+      {
+        "codigo": "GER 7",
+        "nombre": "LEON GORETZKA"
+      },
+      {
+        "codigo": "GER 8",
+        "nombre": "JAMAL MUSIALA"
+      },
+      {
+        "codigo": "GER 9",
+        "nombre": "SERGE GNABRY"
+      },
+      {
+        "codigo": "GER 10",
+        "nombre": "KAI HAVERTZ"
+      },
+      {
+        "codigo": "GER 11",
+        "nombre": "NICK WOLTEMADE"
+      }
+    ]
+  },
+  "Curazao": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "CUW 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "CUW 1",
+        "nombre": "ELOY ROOM"
+      },
+      {
+        "codigo": "CUW 2",
+        "nombre": "ARMANDO OBISPO"
+      },
+      {
+        "codigo": "CUW 3",
+        "nombre": "SHEREL FLORANUS"
+      },
+      {
+        "codigo": "CUW 4",
+        "nombre": "ROSHON VAN EIJMA"
+      },
+      {
+        "codigo": "CUW 5",
+        "nombre": "SHURANDY SAMBO"
+      },
+      {
+        "codigo": "CUW 6",
+        "nombre": "LIVANO COMENENCIA"
+      },
+      {
+        "codigo": "CUW 7",
+        "nombre": "JUNINHO BACUNA"
+      },
+      {
+        "codigo": "CUW 8",
+        "nombre": "LEANDRO BACUNA"
+      },
+      {
+        "codigo": "CUW 9",
+        "nombre": "KENJI GORRÉ"
+      },
+      {
+        "codigo": "CUW 10",
+        "nombre": "JÜRGEN LOCADIA"
+      },
+      {
+        "codigo": "CUW 11",
+        "nombre": "SONTJE HANSEN"
+      }
+    ]
+  },
+  "Costa de Marfil": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "CIV 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "CIV 1",
+        "nombre": "YAHIA FOFANA"
+      },
+      {
+        "codigo": "CIV 2",
+        "nombre": "GHISLAIN KONAN"
+      },
+      {
+        "codigo": "CIV 3",
+        "nombre": "WILFRIED SINGO"
+      },
+      {
+        "codigo": "CIV 4",
+        "nombre": "EVAN NDICKA"
+      },
+      {
+        "codigo": "CIV 5",
+        "nombre": "WILLY BOLY"
+      },
+      {
+        "codigo": "CIV 6",
+        "nombre": "FRANCK KESSIÉ"
+      },
+      {
+        "codigo": "CIV 7",
+        "nombre": "SEKO FOFANA"
+      },
+      {
+        "codigo": "CIV 8",
+        "nombre": "IBRAHIM SANGARÉ"
+      },
+      {
+        "codigo": "CIV 9",
+        "nombre": "SÉBASTIEN HALLER"
+      },
+      {
+        "codigo": "CIV 10",
+        "nombre": "SIMON ADINGRA"
+      },
+      {
+        "codigo": "CIV 11",
+        "nombre": "EVANN GUESSAND"
+      }
+    ]
+  },
+  "Ecuador": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "ECU 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "ECU 1",
+        "nombre": "HERNÁN GALÍNDEZ"
+      },
+      {
+        "codigo": "ECU 2",
+        "nombre": "PIERO HINCAPÍE"
+      },
+      {
+        "codigo": "ECU 3",
+        "nombre": "PERVIS ESTUPIÑÁN"
+      },
+      {
+        "codigo": "ECU 4",
+        "nombre": "WILLIAN PACHO"
+      },
+      {
+        "codigo": "ECU 5",
+        "nombre": "ÁNGELO PRECIADO"
+      },
+      {
+        "codigo": "ECU 6",
+        "nombre": "KENDRY PÁEZ"
+      },
+      {
+        "codigo": "ECU 7",
+        "nombre": "MOISÉS CAICEDO"
+      },
+      {
+        "codigo": "ECU 8",
+        "nombre": "ALAN FRANCO"
+      },
+      {
+        "codigo": "ECU 9",
+        "nombre": "PEDRO VITE"
+      },
+      {
+        "codigo": "ECU 10",
+        "nombre": "GONZALO PLATA"
+      },
+      {
+        "codigo": "ECU 11",
+        "nombre": "ENNER VALENCIA"
+      }
+    ]
+  },
+  "Holanda": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "NED 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "NED 1",
+        "nombre": "BART VERBRUGGEN"
+      },
+      {
+        "codigo": "NED 2",
+        "nombre": "VIRGIL VAN DIJK"
+      },
+      {
+        "codigo": "NED 3",
+        "nombre": "MICKY VAN DE VEN"
+      },
+      {
+        "codigo": "NED 4",
+        "nombre": "DENZEL DUMFRIES"
+      },
+      {
+        "codigo": "NED 5",
+        "nombre": "TIJJANI REIJNDERS"
+      },
+      {
+        "codigo": "NED 6",
+        "nombre": "RYAN GRAVENBERCH"
+      },
+      {
+        "codigo": "NED 7",
+        "nombre": "FRENKIE DE JONG"
+      },
+      {
+        "codigo": "NED 8",
+        "nombre": "XAVI SIMONS"
+      },
+      {
+        "codigo": "NED 9",
+        "nombre": "MEMPHIS DEPAY"
+      },
+      {
+        "codigo": "NED 10",
+        "nombre": "DONYELL MALEN"
+      },
+      {
+        "codigo": "NED 11",
+        "nombre": "CODY GAKPO"
+      }
+    ]
+  },
+  "Japón": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "JPN 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "JPN 1",
+        "nombre": "ZION SUZUKI"
+      },
+      {
+        "codigo": "JPN 2",
+        "nombre": "TSUYOSHI WATANABE"
+      },
+      {
+        "codigo": "JPN 3",
+        "nombre": "KAISHU SANO"
+      },
+      {
+        "codigo": "JPN 4",
+        "nombre": "AO TANAKA"
+      },
+      {
+        "codigo": "JPN 5",
+        "nombre": "DAICHI KAMADA"
+      },
+      {
+        "codigo": "JPN 6",
+        "nombre": "RITSU DOAN"
+      },
+      {
+        "codigo": "JPN 7",
+        "nombre": "KEITO NAKAMURA"
+      },
+      {
+        "codigo": "JPN 8",
+        "nombre": "TAKUMI MINAMINO"
+      },
+      {
+        "codigo": "JPN 9",
+        "nombre": "TAKEFUSA KUBO"
+      },
+      {
+        "codigo": "JPN 10",
+        "nombre": "SHUTO MACHINO"
+      },
+      {
+        "codigo": "JPN 11",
+        "nombre": "AYASE UEDA"
+      }
+    ]
+  },
+  "Suecia": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "SWE 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "SWE 1",
+        "nombre": "VIKTOR JOHANSSON"
+      },
+      {
+        "codigo": "SWE 2",
+        "nombre": "ISAK HIEN"
+      },
+      {
+        "codigo": "SWE 3",
+        "nombre": "EMIL HOLM"
+      },
+      {
+        "codigo": "SWE 4",
+        "nombre": "VICTOR NILSSON LINDELÖF"
+      },
+      {
+        "codigo": "SWE 5",
+        "nombre": "LUCAS BERGVALL"
+      },
+      {
+        "codigo": "SWE 6",
+        "nombre": "YASIN AYARI"
+      },
+      {
+        "codigo": "SWE 7",
+        "nombre": "DANIEL SVENSSON"
+      },
+      {
+        "codigo": "SWE 8",
+        "nombre": "DEJAN KULUSEVSKI"
+      },
+      {
+        "codigo": "SWE 9",
+        "nombre": "ANTHONY ELANGA"
+      },
+      {
+        "codigo": "SWE 10",
+        "nombre": "ALEXANDER ISAK"
+      },
+      {
+        "codigo": "SWE 11",
+        "nombre": "VIKTOR GYÖKERES"
+      }
+    ]
+  },
+  "Túnez": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "TUN 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "TUN 1",
+        "nombre": "AYMEN DAHMEN"
+      },
+      {
+        "codigo": "TUN 2",
+        "nombre": "MONTASSAR TALBI"
+      },
+      {
+        "codigo": "TUN 3",
+        "nombre": "YASSINE MERIAH"
+      },
+      {
+        "codigo": "TUN 4",
+        "nombre": "ALI ABDI"
+      },
+      {
+        "codigo": "TUN 5",
+        "nombre": "FERJANI SASSI"
+      },
+      {
+        "codigo": "TUN 6",
+        "nombre": "ELLYES SKHIRI"
+      },
+      {
+        "codigo": "TUN 7",
+        "nombre": "AÏSSA LAÏDOUNI"
+      },
+      {
+        "codigo": "TUN 8",
+        "nombre": "HANNIBAL MEJBRI"
+      },
+      {
+        "codigo": "TUN 9",
+        "nombre": "NAÏM SLITI"
+      },
+      {
+        "codigo": "TUN 10",
+        "nombre": "ELIAS ACHOURI"
+      },
+      {
+        "codigo": "TUN 11",
+        "nombre": "HAZEM MASTOURI"
+      }
+    ]
+  },
+  "Bélgica": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "BEL 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "BEL 1",
+        "nombre": "THIBAUT COURTOIS"
+      },
+      {
+        "codigo": "BEL 2",
+        "nombre": "ARTHUR THEATE"
+      },
+      {
+        "codigo": "BEL 3",
+        "nombre": "TIMOTHY CASTAGNE"
+      },
+      {
+        "codigo": "BEL 4",
+        "nombre": "MAXIM DE CUYPER"
+      },
+      {
+        "codigo": "BEL 5",
+        "nombre": "YOURI TIELEMANS"
+      },
+      {
+        "codigo": "BEL 6",
+        "nombre": "KEVIN DE BRUYNE"
+      },
+      {
+        "codigo": "BEL 7",
+        "nombre": "AMADOU ONANA"
+      },
+      {
+        "codigo": "BEL 8",
+        "nombre": "JÉRÉMY DOKU"
+      },
+      {
+        "codigo": "BEL 9",
+        "nombre": "CHARLES DE KETELAERE"
+      },
+      {
+        "codigo": "BEL 10",
+        "nombre": "LEANDRO TROSSARD"
+      },
+      {
+        "codigo": "BEL 11",
+        "nombre": "ROMELU LUKAKU"
+      }
+    ]
+  },
+  "Egipto": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "EGY 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "EGY 1",
+        "nombre": "MOHAMED ELSHENAWY"
+      },
+      {
+        "codigo": "EGY 2",
+        "nombre": "MOHAMED HANY"
+      },
+      {
+        "codigo": "EGY 3",
+        "nombre": "YASSER IBRAHIM"
+      },
+      {
+        "codigo": "EGY 4",
+        "nombre": "RAMY RABIA"
+      },
+      {
+        "codigo": "EGY 5",
+        "nombre": "MARWAN ATTIA"
+      },
+      {
+        "codigo": "EGY 6",
+        "nombre": "ZIZO"
+      },
+      {
+        "codigo": "EGY 7",
+        "nombre": "HAMDY FATHY"
+      },
+      {
+        "codigo": "EGY 8",
+        "nombre": "OMAR MARMOUSH"
+      },
+      {
+        "codigo": "EGY 9",
+        "nombre": "MOHAMED SALAH"
+      },
+      {
+        "codigo": "EGY 10",
+        "nombre": "MOSTAFA MOHAMED"
+      },
+      {
+        "codigo": "EGY 11",
+        "nombre": "TREZEGUET"
+      }
+    ]
+  },
+  "Iran": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "IRN 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "IRN 1",
+        "nombre": "ALIREZA BEIRANVAND"
+      },
+      {
+        "codigo": "IRN 2",
+        "nombre": "SHOJA KHALILZADEH"
+      },
+      {
+        "codigo": "IRN 3",
+        "nombre": "MILAD MOHAMMADI"
+      },
+      {
+        "codigo": "IRN 4",
+        "nombre": "RAMIN REZAEIAN"
+      },
+      {
+        "codigo": "IRN 5",
+        "nombre": "HOSSEIN KANAANI"
+      },
+      {
+        "codigo": "IRN 6",
+        "nombre": "SAEED EZATOLAHI"
+      },
+      {
+        "codigo": "IRN 7",
+        "nombre": "SAMAN GHODDOS"
+      },
+      {
+        "codigo": "IRN 8",
+        "nombre": "MOHAMMAD MOHEBI"
+      },
+      {
+        "codigo": "IRN 9",
+        "nombre": "MEHDI TAREMI"
+      },
+      {
+        "codigo": "IRN 10",
+        "nombre": "SARDAR AZMOUN"
+      },
+      {
+        "codigo": "IRN 11",
+        "nombre": "ALIREZA JAHANBAKHSH"
+      }
+    ]
+  },
+  "Nueva Zelanda": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "NZL 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "NZL 1",
+        "nombre": "MAX CROCOMBE"
+      },
+      {
+        "codigo": "NZL 2",
+        "nombre": "MICHAEL BOXALL"
+      },
+      {
+        "codigo": "NZL 3",
+        "nombre": "LIBERATO CACACE"
+      },
+      {
+        "codigo": "NZL 4",
+        "nombre": "TIM PAYNE"
+      },
+      {
+        "codigo": "NZL 5",
+        "nombre": "FINN SURMAN"
+      },
+      {
+        "codigo": "NZL 6",
+        "nombre": "MARKO STAMENIC"
+      },
+      {
+        "codigo": "NZL 7",
+        "nombre": "JOE BELL"
+      },
+      {
+        "codigo": "NZL 8",
+        "nombre": "SARPREET SINGH"
+      },
+      {
+        "codigo": "NZL 9",
+        "nombre": "MATT GARBETT"
+      },
+      {
+        "codigo": "NZL 10",
+        "nombre": "CHRIS WOOD"
+      },
+      {
+        "codigo": "NZL 11",
+        "nombre": "ELIJAH JUST"
+      }
+    ]
+  },
+  "España": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "ESP 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "ESP 1",
+        "nombre": "UNAI SIMÓN"
+      },
+      {
+        "codigo": "ESP 2",
+        "nombre": "ROBIN LE NORMAND"
+      },
+      {
+        "codigo": "ESP 3",
+        "nombre": "DEAN HUIJSEN"
+      },
+      {
+        "codigo": "ESP 4",
+        "nombre": "MARC CUCURELLA"
+      },
+      {
+        "codigo": "ESP 5",
+        "nombre": "RODRI"
+      },
+      {
+        "codigo": "ESP 6",
+        "nombre": "MARTÍN ZUBIMENDI"
+      },
+      {
+        "codigo": "ESP 7",
+        "nombre": "PEDRI"
+      },
+      {
+        "codigo": "ESP 8",
+        "nombre": "FABIÁN RUIZ"
+      },
+      {
+        "codigo": "ESP 9",
+        "nombre": "LAMINE YAMAL"
+      },
+      {
+        "codigo": "ESP 10",
+        "nombre": "NICO WILLIAMS"
+      },
+      {
+        "codigo": "ESP 11",
+        "nombre": "MIKEL OYARZABAL"
+      }
+    ]
+  },
+  "Cabo Verde": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "CPV 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "CPV 1",
+        "nombre": "VOZINHA"
+      },
+      {
+        "codigo": "CPV 2",
+        "nombre": "LOGAN COSTA"
+      },
+      {
+        "codigo": "CPV 3",
+        "nombre": "PICO"
+      },
+      {
+        "codigo": "CPV 4",
+        "nombre": "STEVEN MOREIRA"
+      },
+      {
+        "codigo": "CPV 5",
+        "nombre": "JOÃO PAULO"
+      },
+      {
+        "codigo": "CPV 6",
+        "nombre": "KEVIN PINA"
+      },
+      {
+        "codigo": "CPV 7",
+        "nombre": "JAMIRO MONTEIRO"
+      },
+      {
+        "codigo": "CPV 8",
+        "nombre": "VANNICK SEMEDO"
+      },
+      {
+        "codigo": "CPV 9",
+        "nombre": "RYAN MENDES"
+      },
+      {
+        "codigo": "CPV 10",
+        "nombre": "JOVANE CABRAL"
+      },
+      {
+        "codigo": "CPV 11",
+        "nombre": "DAILON LIVRAMENTO"
+      }
+    ]
+  },
+  "Arabia Saudita": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "KSA 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "KSA 1",
+        "nombre": "NAWAF ALAQIDI"
+      },
+      {
+        "codigo": "KSA 2",
+        "nombre": "HASSAN ALTAMBAKTI"
+      },
+      {
+        "codigo": "KSA 3",
+        "nombre": "JEHAD THIKRI"
+      },
+      {
+        "codigo": "KSA 4",
+        "nombre": "SAUD ABDULHAMID"
+      },
+      {
+        "codigo": "KSA 5",
+        "nombre": "NASSER ALDAWSARI"
+      },
+      {
+        "codigo": "KSA 6",
+        "nombre": "ABDULLAH ALKHAIBARI"
+      },
+      {
+        "codigo": "KSA 7",
+        "nombre": "MUSAB ALJUWAYR"
+      },
+      {
+        "codigo": "KSA 8",
+        "nombre": "FERAS ALBRIKAN"
+      },
+      {
+        "codigo": "KSA 9",
+        "nombre": "SALEM ALDAWSARI"
+      },
+      {
+        "codigo": "KSA 10",
+        "nombre": "SALEH ABU ALSHAMAT"
+      },
+      {
+        "codigo": "KSA 11",
+        "nombre": "SALEH ALSHEHRI"
+      }
+    ]
+  },
+  "Uruguay": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "URU 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "URU 1",
+        "nombre": "SERGIO ROCHET"
+      },
+      {
+        "codigo": "URU 2",
+        "nombre": "JOSÉ MARÍA GIMÉNEZ"
+      },
+      {
+        "codigo": "URU 3",
+        "nombre": "RONALD ARAÚJO"
+      },
+      {
+        "codigo": "URU 4",
+        "nombre": "SEBASTIÁN CÁCERES"
+      },
+      {
+        "codigo": "URU 5",
+        "nombre": "MATHÍAS OLIVERA"
+      },
+      {
+        "codigo": "URU 6",
+        "nombre": "NAHITAN NÁNDEZ"
+      },
+      {
+        "codigo": "URU 7",
+        "nombre": "FEDERICO VALVERDE"
+      },
+      {
+        "codigo": "URU 8",
+        "nombre": "RODRIGO BENTANCUR"
+      },
+      {
+        "codigo": "URU 9",
+        "nombre": "MANUEL UGARTE"
+      },
+      {
+        "codigo": "URU 10",
+        "nombre": "FACUNDO PELLISTRI"
+      },
+      {
+        "codigo": "URU 11",
+        "nombre": "DARWIN NÚÑEZ"
+      }
+    ]
+  },
+  "Francia": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "FRA 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "FRA 1",
+        "nombre": "MIKE MAIGNAN"
+      },
+      {
+        "codigo": "FRA 2",
+        "nombre": "WILLIAM SALIBA"
+      },
+      {
+        "codigo": "FRA 3",
+        "nombre": "JULES KOUNDÉ"
+      },
+      {
+        "codigo": "FRA 4",
+        "nombre": "THÉO HERNÁNDEZ"
+      },
+      {
+        "codigo": "FRA 5",
+        "nombre": "AURÉLIEN TCHOUAMÉNI"
+      },
+      {
+        "codigo": "FRA 6",
+        "nombre": "EDUARDO CAMAVINGA"
+      },
+      {
+        "codigo": "FRA 7",
+        "nombre": "OUSMANE DEMBÉLÉ"
+      },
+      {
+        "codigo": "FRA 8",
+        "nombre": "KYLIAN MBAPPÉ"
+      },
+      {
+        "codigo": "FRA 9",
+        "nombre": "BRADLEY BARCOLA"
+      },
+      {
+        "codigo": "FRA 10",
+        "nombre": "DÉSIRÉ DOUÉ"
+      },
+      {
+        "codigo": "FRA 11",
+        "nombre": "HUGO EKITIKÉ"
+      }
+    ]
+  },
+  "Senegal": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "SEN 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "SEN 1",
+        "nombre": "ÉDOUARD MENDY"
+      },
+      {
+        "codigo": "SEN 2",
+        "nombre": "KALIDOU KOULIBALY"
+      },
+      {
+        "codigo": "SEN 3",
+        "nombre": "MOUSSA NIAKHATÉ"
+      },
+      {
+        "codigo": "SEN 4",
+        "nombre": "EL HADJI MALICK DIOUF"
+      },
+      {
+        "codigo": "SEN 5",
+        "nombre": "IDRISSA GANA GUEYE"
+      },
+      {
+        "codigo": "SEN 6",
+        "nombre": "PAPE MATAR SARR"
+      },
+      {
+        "codigo": "SEN 7",
+        "nombre": "SADIO MANÉ"
+      },
+      {
+        "codigo": "SEN 8",
+        "nombre": "ILIMAN NDIAYE"
+      },
+      {
+        "codigo": "SEN 9",
+        "nombre": "KRÉPIN DIATTA"
+      },
+      {
+        "codigo": "SEN 10",
+        "nombre": "ISMAÏLA SARR"
+      },
+      {
+        "codigo": "SEN 11",
+        "nombre": "NICOLAS JACKSON"
+      }
+    ]
+  },
+  "Irak": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "IRQ 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "IRQ 1",
+        "nombre": "JALAL HASAN"
+      },
+      {
+        "codigo": "IRQ 2",
+        "nombre": "HUSSEIN ALI"
+      },
+      {
+        "codigo": "IRQ 3",
+        "nombre": "AKAM HASHEM"
+      },
+      {
+        "codigo": "IRQ 4",
+        "nombre": "MERCHAS DOSKI"
+      },
+      {
+        "codigo": "IRQ 5",
+        "nombre": "ZAID TAHSEEN"
+      },
+      {
+        "codigo": "IRQ 6",
+        "nombre": "ZIDANE IQBAL"
+      },
+      {
+        "codigo": "IRQ 7",
+        "nombre": "AMIR AL-AMMARI"
+      },
+      {
+        "codigo": "IRQ 8",
+        "nombre": "IBRAHIM BAYESH"
+      },
+      {
+        "codigo": "IRQ 9",
+        "nombre": "ALI JASIM"
+      },
+      {
+        "codigo": "IRQ 10",
+        "nombre": "AIMAR SHER"
+      },
+      {
+        "codigo": "IRQ 11",
+        "nombre": "MOHANAD ALI"
+      }
+    ]
+  },
+  "Noruega": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "NOR 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "NOR 1",
+        "nombre": "ØRJAN NYLAND"
+      },
+      {
+        "codigo": "NOR 2",
+        "nombre": "JULIAN RYERSON"
+      },
+      {
+        "codigo": "NOR 3",
+        "nombre": "KRISTOFFER VASSBAKK AJER"
+      },
+      {
+        "codigo": "NOR 4",
+        "nombre": "DAVID MØLLER WOLFE"
+      },
+      {
+        "codigo": "NOR 5",
+        "nombre": "MARTIN ØDEGAARD"
+      },
+      {
+        "codigo": "NOR 6",
+        "nombre": "SANDER BERGE"
+      },
+      {
+        "codigo": "NOR 7",
+        "nombre": "PATRICK BERG"
+      },
+      {
+        "codigo": "NOR 8",
+        "nombre": "ERLING HAALAND"
+      },
+      {
+        "codigo": "NOR 9",
+        "nombre": "ANTONIO NUSA"
+      },
+      {
+        "codigo": "NOR 10",
+        "nombre": "OSCAR BOBB"
+      },
+      {
+        "codigo": "NOR 11",
+        "nombre": "ALEXANDER SØRLOTH"
+      }
+    ]
+  },
+  "Argentina": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "ARG 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "ARG 1",
+        "nombre": "EMILIANO MARTÍNEZ"
+      },
+      {
+        "codigo": "ARG 2",
+        "nombre": "NAHUEL MOLINA"
+      },
+      {
+        "codigo": "ARG 3",
+        "nombre": "CRISTIAN ROMERO"
+      },
+      {
+        "codigo": "ARG 4",
+        "nombre": "NICOLÁS OTAMENDI"
+      },
+      {
+        "codigo": "ARG 5",
+        "nombre": "ENZO FERNÁNDEZ"
+      },
+      {
+        "codigo": "ARG 6",
+        "nombre": "ALEXIS MAC ALLISTER"
+      },
+      {
+        "codigo": "ARG 7",
+        "nombre": "RODRIGO DE PAUL"
+      },
+      {
+        "codigo": "ARG 8",
+        "nombre": "JULIÁN ÁLVAREZ"
+      },
+      {
+        "codigo": "ARG 9",
+        "nombre": "LIONEL MESSI"
+      },
+      {
+        "codigo": "ARG 10",
+        "nombre": "GIULIANO SIMEONE"
+      },
+      {
+        "codigo": "ARG 11",
+        "nombre": "LAUTARO MARTÍNEZ"
+      }
+    ]
+  },
+  "Argelia": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "ALG 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "ALG 1",
+        "nombre": "ALEXIS GUENDOUZ"
+      },
+      {
+        "codigo": "ALG 2",
+        "nombre": "RAYAN AÏT-NOURI"
+      },
+      {
+        "codigo": "ALG 3",
+        "nombre": "RAMY BENSEBAINI"
+      },
+      {
+        "codigo": "ALG 4",
+        "nombre": "YOUCEF ATAL"
+      },
+      {
+        "codigo": "ALG 5",
+        "nombre": "AÏSSA MANDI"
+      },
+      {
+        "codigo": "ALG 6",
+        "nombre": "NABIL BENTALEB"
+      },
+      {
+        "codigo": "ALG 7",
+        "nombre": "RIYAD MAHREZ"
+      },
+      {
+        "codigo": "ALG 8",
+        "nombre": "SAÏD BENRAHMA"
+      },
+      {
+        "codigo": "ALG 9",
+        "nombre": "AMINE GOUIRI"
+      },
+      {
+        "codigo": "ALG 10",
+        "nombre": "MOHAMED AMOURA"
+      },
+      {
+        "codigo": "ALG 11",
+        "nombre": "BAGHDAD BOUNEDJAH"
+      }
+    ]
+  },
+  "Austria": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "AUT 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "AUT 1",
+        "nombre": "ALEXANDER SCHLAGER"
+      },
+      {
+        "codigo": "AUT 2",
+        "nombre": "DAVID ALABA"
+      },
+      {
+        "codigo": "AUT 3",
+        "nombre": "KEVIN DANSO"
+      },
+      {
+        "codigo": "AUT 4",
+        "nombre": "PHILIPP LIENHART"
+      },
+      {
+        "codigo": "AUT 5",
+        "nombre": "KONRAD LAIMER"
+      },
+      {
+        "codigo": "AUT 6",
+        "nombre": "NICOLAS SEIWALD"
+      },
+      {
+        "codigo": "AUT 7",
+        "nombre": "MARCEL SABITZER"
+      },
+      {
+        "codigo": "AUT 8",
+        "nombre": "FLORIAN GRILLITSCH"
+      },
+      {
+        "codigo": "AUT 9",
+        "nombre": "MARKO ARNAUTOVIĆ"
+      },
+      {
+        "codigo": "AUT 10",
+        "nombre": "CHRISTOPH BAUMGARTNER"
+      },
+      {
+        "codigo": "AUT 11",
+        "nombre": "MICHAEL GREGORITSCH"
+      }
+    ]
+  },
+  "Jordania": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "JOR 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "JOR 1",
+        "nombre": "YAZEED ABULAILA"
+      },
+      {
+        "codigo": "JOR 2",
+        "nombre": "MOHAMMAD ABU HASHISH"
+      },
+      {
+        "codigo": "JOR 3",
+        "nombre": "YAZAN AL-ARAB"
+      },
+      {
+        "codigo": "JOR 4",
+        "nombre": "ABDALLAH NASIB"
+      },
+      {
+        "codigo": "JOR 5",
+        "nombre": "IBRAHIM SAADEH"
+      },
+      {
+        "codigo": "JOR 6",
+        "nombre": "NIZAR AL-RASHDAN"
+      },
+      {
+        "codigo": "JOR 7",
+        "nombre": "NOOR AL-RAWABDEH"
+      },
+      {
+        "codigo": "JOR 8",
+        "nombre": "YAZAN AL-NAIMAT"
+      },
+      {
+        "codigo": "JOR 9",
+        "nombre": "MOUSA AL-TAAMARI"
+      },
+      {
+        "codigo": "JOR 10",
+        "nombre": "MAHMOUD AL-MARDI"
+      },
+      {
+        "codigo": "JOR 11",
+        "nombre": "ALI OLWAN"
+      }
+    ]
+  },
+  "Portugal": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "POR 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "POR 1",
+        "nombre": "DIOGO COSTA"
+      },
+      {
+        "codigo": "POR 2",
+        "nombre": "RÚBEN DIAS"
+      },
+      {
+        "codigo": "POR 3",
+        "nombre": "NUNO MENDES"
+      },
+      {
+        "codigo": "POR 4",
+        "nombre": "VITINHA"
+      },
+      {
+        "codigo": "POR 5",
+        "nombre": "BERNARDO SILVA"
+      },
+      {
+        "codigo": "POR 6",
+        "nombre": "BRUNO FERNANDES"
+      },
+      {
+        "codigo": "POR 7",
+        "nombre": "RÚBEN NEVES"
+      },
+      {
+        "codigo": "POR 8",
+        "nombre": "CRISTIANO RONALDO"
+      },
+      {
+        "codigo": "POR 9",
+        "nombre": "JOÃO FÉLIX"
+      },
+      {
+        "codigo": "POR 10",
+        "nombre": "PEDRO NETO"
+      },
+      {
+        "codigo": "POR 11",
+        "nombre": "RAFAEL LEÃO"
+      }
+    ]
+  },
+  "Congo": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "COD 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "COD 1",
+        "nombre": "LIONEL MPASI"
+      },
+      {
+        "codigo": "COD 2",
+        "nombre": "AARON WAN-BISSAKA"
+      },
+      {
+        "codigo": "COD 3",
+        "nombre": "AXEL TUANZEBE"
+      },
+      {
+        "codigo": "COD 4",
+        "nombre": "ARTHUR MASUAKU"
+      },
+      {
+        "codigo": "COD 5",
+        "nombre": "CHANCEL MBEMBA"
+      },
+      {
+        "codigo": "COD 6",
+        "nombre": "NGAL’AYEL MUKAU"
+      },
+      {
+        "codigo": "COD 7",
+        "nombre": "SAMUEL MOUTOUSSAMY"
+      },
+      {
+        "codigo": "COD 8",
+        "nombre": "NOAH SADIKI"
+      },
+      {
+        "codigo": "COD 9",
+        "nombre": "THÉO BONGONDA"
+      },
+      {
+        "codigo": "COD 10",
+        "nombre": "YOANE WISSA"
+      },
+      {
+        "codigo": "COD 11",
+        "nombre": "CÉDRIC BAKAMBU"
+      }
+    ]
+  },
+  "Usbekistan": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "UZB 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "UZB 1",
+        "nombre": "UTKIR YUSUPOV"
+      },
+      {
+        "codigo": "UZB 2",
+        "nombre": "ABDUKODIR KHUSANOV"
+      },
+      {
+        "codigo": "UZB 3",
+        "nombre": "FARRUKH SAYFIEV"
+      },
+      {
+        "codigo": "UZB 4",
+        "nombre": "SHERZOD NASRULLAEV"
+      },
+      {
+        "codigo": "UZB 5",
+        "nombre": "HUSNIDDIN ALIQULOV"
+      },
+      {
+        "codigo": "UZB 6",
+        "nombre": "RUSTAM ASHURMATOV"
+      },
+      {
+        "codigo": "UZB 7",
+        "nombre": "KHOJIAKBAR ALIJONOV"
+      },
+      {
+        "codigo": "UZB 8",
+        "nombre": "ODILJON HAMROBEKOV"
+      },
+      {
+        "codigo": "UZB 9",
+        "nombre": "OTABEK SHUKUROV"
+      },
+      {
+        "codigo": "UZB 10",
+        "nombre": "ELDOR SHOMURODOV"
+      },
+      {
+        "codigo": "UZB 11",
+        "nombre": "ABBOSBEK FAYZULLAEV"
+      }
+    ]
+  },
+  "Colombia": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "COL 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "COL 1",
+        "nombre": "CAMILO VARGAS"
+      },
+      {
+        "codigo": "COL 2",
+        "nombre": "DÁVINSON SÁNCHEZ"
+      },
+      {
+        "codigo": "COL 3",
+        "nombre": "YERRY MINA"
+      },
+      {
+        "codigo": "COL 4",
+        "nombre": "DANIEL MUÑOZ"
+      },
+      {
+        "codigo": "COL 5",
+        "nombre": "JAMES RODRÍGUEZ"
+      },
+      {
+        "codigo": "COL 6",
+        "nombre": "JEFFERSON LERMA"
+      },
+      {
+        "codigo": "COL 7",
+        "nombre": "RICHARD RÍOS"
+      },
+      {
+        "codigo": "COL 8",
+        "nombre": "JUAN FERNANDO QUINTERO"
+      },
+      {
+        "codigo": "COL 9",
+        "nombre": "LUIS DÍAZ"
+      },
+      {
+        "codigo": "COL 10",
+        "nombre": "JHON ARIAS"
+      },
+      {
+        "codigo": "COL 11",
+        "nombre": "LUIS SUÁREZ"
+      }
+    ]
+  },
+  "Inglaterra": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "ENG 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "ENG 1",
+        "nombre": "JORDAN PICKFORD"
+      },
+      {
+        "codigo": "ENG 2",
+        "nombre": "REECE JAMES"
+      },
+      {
+        "codigo": "ENG 3",
+        "nombre": "JOHN STONES"
+      },
+      {
+        "codigo": "ENG 4",
+        "nombre": "JUDE BELLINGHAM"
+      },
+      {
+        "codigo": "ENG 5",
+        "nombre": "DECLAN RICE"
+      },
+      {
+        "codigo": "ENG 6",
+        "nombre": "JORDAN HENDERSON"
+      },
+      {
+        "codigo": "ENG 7",
+        "nombre": "PHIL FODEN"
+      },
+      {
+        "codigo": "ENG 8",
+        "nombre": "HARRY KANE"
+      },
+      {
+        "codigo": "ENG 9",
+        "nombre": "BUKAYO SAKA"
+      },
+      {
+        "codigo": "ENG 10",
+        "nombre": "COLE PALMER"
+      },
+      {
+        "codigo": "ENG 11",
+        "nombre": "MARCUS RASHFORD"
+      }
+    ]
+  },
+  "Croacia": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "CRO 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "CRO 1",
+        "nombre": "DOMINIK LIVAKOVIĆ"
+      },
+      {
+        "codigo": "CRO 2",
+        "nombre": "DUJE ĆALETA-CAR"
+      },
+      {
+        "codigo": "CRO 3",
+        "nombre": "JOŠKO GVARDIOL"
+      },
+      {
+        "codigo": "CRO 4",
+        "nombre": "JOSIP STANIŠIĆ"
+      },
+      {
+        "codigo": "CRO 5",
+        "nombre": "IVAN PERIŠIĆ"
+      },
+      {
+        "codigo": "CRO 6",
+        "nombre": "LUKA MODRIĆ"
+      },
+      {
+        "codigo": "CRO 7",
+        "nombre": "MATEO KOVAČIĆ"
+      },
+      {
+        "codigo": "CRO 8",
+        "nombre": "LOVRO MAJER"
+      },
+      {
+        "codigo": "CRO 9",
+        "nombre": "MARIO PAŠALIĆ"
+      },
+      {
+        "codigo": "CRO 10",
+        "nombre": "ANTE BUDIMIR"
+      },
+      {
+        "codigo": "CRO 11",
+        "nombre": "ANDREJ KRAMARIĆ"
+      }
+    ]
+  },
+  "Ghana": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "GHA 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "GHA 1",
+        "nombre": "LAWRENCE ATI ZIGI"
+      },
+      {
+        "codigo": "GHA 2",
+        "nombre": "ALIDU SEIDU"
+      },
+      {
+        "codigo": "GHA 3",
+        "nombre": "ALEXANDER DJIKU"
+      },
+      {
+        "codigo": "GHA 4",
+        "nombre": "GIDEON MENSAH"
+      },
+      {
+        "codigo": "GHA 5",
+        "nombre": "CALEB YIRENKYI"
+      },
+      {
+        "codigo": "GHA 6",
+        "nombre": "THOMAS PARTEY"
+      },
+      {
+        "codigo": "GHA 7",
+        "nombre": "ABDUL ISSAHAKU FATAWU"
+      },
+      {
+        "codigo": "GHA 8",
+        "nombre": "MOHAMMED KUDUS"
+      },
+      {
+        "codigo": "GHA 9",
+        "nombre": "KAMALDEEN SULEMANA"
+      },
+      {
+        "codigo": "GHA 10",
+        "nombre": "JORDAN AYEW"
+      },
+      {
+        "codigo": "GHA 11",
+        "nombre": "ANTOINE SEMENYO"
+      }
+    ]
+  },
+  "Panamá": {
+    "count": 12,
+    "items": [
+      {
+        "codigo": "PAN 0",
+        "nombre": "ESCUDO"
+      },
+      {
+        "codigo": "PAN 1",
+        "nombre": "ORLANDO MOSQUERA"
+      },
+      {
+        "codigo": "PAN 2",
+        "nombre": "MICHAEL AMIR MURILLO"
+      },
+      {
+        "codigo": "PAN 3",
+        "nombre": "ANDRÉS ANDRADE"
+      },
+      {
+        "codigo": "PAN 4",
+        "nombre": "FIDEL ESCOBAR"
+      },
+      {
+        "codigo": "PAN 5",
+        "nombre": "ANÍBAL GODOY"
+      },
+      {
+        "codigo": "PAN 6",
+        "nombre": "CRISTIAN MARTÍNEZ"
+      },
+      {
+        "codigo": "PAN 7",
+        "nombre": "ADALBERTO CARRASQUILLA"
+      },
+      {
+        "codigo": "PAN 8",
+        "nombre": "ÉDGAR BÁRCENAS"
+      },
+      {
+        "codigo": "PAN 9",
+        "nombre": "JOSÉ FAJARDO"
+      },
+      {
+        "codigo": "PAN 10",
+        "nombre": "ISMAEL DÍAZ"
+      },
+      {
+        "codigo": "PAN 11",
+        "nombre": "JOSÉ LUIS RODRÍGUEZ"
+      }
+    ]
+  },
+  "Host City": {
+    "count": 16,
+    "items": [
+      {
+        "codigo": "HOST CITY PHILADELPHIA",
+        "nombre": "PHILADELPHIA"
+      },
+      {
+        "codigo": "HOST CITY HOUSTON",
+        "nombre": "HOUSTON"
+      },
+      {
+        "codigo": "HOST CITY LOS ANGELES",
+        "nombre": "LOS ANGELES"
+      },
+      {
+        "codigo": "HOST CITY KANSAS CITY",
+        "nombre": "KANSAS CITY"
+      },
+      {
+        "codigo": "HOST CITY ATLANTA",
+        "nombre": "ATLANTA"
+      },
+      {
+        "codigo": "HOST CITY MEXICO CITY",
+        "nombre": "MEXICO CITY"
+      },
+      {
+        "codigo": "HOST CITY DALLAS",
+        "nombre": "DALLAS"
+      },
+      {
+        "codigo": "HOST CITY BOSTON",
+        "nombre": "BOSTON"
+      },
+      {
+        "codigo": "HOST CITY MIAMI",
+        "nombre": "MIAMI"
+      },
+      {
+        "codigo": "HOST CITY MONTERREY",
+        "nombre": "MONTERREY"
+      },
+      {
+        "codigo": "HOST CITY TORONTO",
+        "nombre": "TORONTO"
+      },
+      {
+        "codigo": "HOST CITY NEW YORK / NEW JERSEY",
+        "nombre": "NEW YORK / NEW JERSEY"
+      },
+      {
+        "codigo": "HOST CITY VANCOUVER",
+        "nombre": "VANCOUVER"
+      },
+      {
+        "codigo": "HOST CITY SEATTLE",
+        "nombre": "SEATTLE"
+      },
+      {
+        "codigo": "HOST CITY SAN FRANCISCO BAY AREA",
+        "nombre": "SAN FRANCISCO BAY AREA"
+      },
+      {
+        "codigo": "HOST CITY GUADALAJARA",
+        "nombre": "GUADALAJARA"
+      }
+    ]
+  }
+}

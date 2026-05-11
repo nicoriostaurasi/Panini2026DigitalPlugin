@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Panini Collection Helper",
+  "version": "0.1.0",
+  "description": "Muestra el estado de tu album FIFA Panini usando tu sesion iniciada.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Panini Collection"
+  },
+  "permissions": [],
+  "host_permissions": [
+    "https://paninicollection.fifa.com/*"
+  ]
+}

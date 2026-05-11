@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Panini Collection</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Panini Collection</h1>
+        <div class="actions">
+          <button id="refresh" type="button">Actualizar</button>
+          <button id="downloadJson" type="button" disabled>JSON</button>
+        </div>
+      </header>
+
+      <section id="status" class="status">Cargando...</section>
+
+      <section class="summary" hidden>
+        <div>
+          <span class="label">Usuario</span>
+          <strong id="user">-</strong>
+        </div>
+        <div>
+          <span class="label">Album</span>
+          <strong id="album">-</strong>
+        </div>
+        <div>
+          <span class="label">Dorado</span>
+          <strong id="golden">-</strong>
+        </div>
+        <div>
+          <span class="label">Temporales</span>
+          <strong id="tempCount">-</strong>
+        </div>
+      </section>
+
+      <section class="listWrap" hidden>
+        <h2>Figuritas visibles en la API</h2>
+        <ol id="tempList"></ol>
+      </section>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
