@@ -10,9 +10,7 @@
   "permissions": [],
   "host_permissions": [
     "https://paninicollection.fifa.com/*",
-    "http://localhost/*",
-    "http://127.0.0.1/*",
-    "https://*.ngrok-free.app/*",
-    "https://*.ngrok.app/*"
+    "http://*/*",
+    "https://*/*"
   ]
 }
